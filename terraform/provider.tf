@@ -7,7 +7,7 @@ locals {
   private_subnets = ["10.123.3.0/24", "10.123.4.0/24"]
   intra_subnets   = ["10.123.5.0/24", "10.123.6.0/24"]
   tags = {
-    Example = tag-1
+    Example = local.name
   }
 }
 
